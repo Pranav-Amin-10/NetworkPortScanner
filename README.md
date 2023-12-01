@@ -19,7 +19,7 @@ Type netstat -aon and hit enter.
 Look for the port numbers in the Listening state.
 
 Filters for CMD Verification:
-netstat -ano | find "LISTENING" | sort        - To sort by "LISTENING" ports                                                                                                    netstat -ano | find "ESTABLISHED" | sort      - To sort by "ESTABLISHED" ports                                                                                                  netstat -ano | find "TIME_WAIT" | sort        - To sort by "TIME_WAIT" ports
+netstat -ano | find "LISTENING" | sort        - To sort by "LISTENING" ports                                                                                                  netstat -ano | find "ESTABLISHED" | sort      - To sort by "ESTABLISHED" ports                                                                                                  netstat -ano | find "TIME_WAIT" | sort        - To sort by "TIME_WAIT" ports
 
 
 
