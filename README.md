@@ -58,14 +58,6 @@ The timeout mechanism and error handling contribute to the overall scanning effi
 6. **Interpret Results:**
    - Analyze the console output to identify open ports and understand the status of the scanned network.
 
-## Contributing
-
-Contributions are welcome! If you have suggestions for improvements, feature requests, or would like to report issues, feel free to [create an issue](https://github.com/Pranav-Amin-10/NetworkPortScanner/issues) or submit a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ### Additional Information:<br>
 🠮 Verify Open Ports using CMD<br>
 🠮 Open the Command Prompt.<br>
@@ -77,5 +69,10 @@ This project is licensed under the [MIT License](LICENSE).
 🠮 netstat -ano | find "ESTABLISHED" | sort      - To sort by "ESTABLISHED" ports<br>
 🠮 netstat -ano | find "TIME_WAIT" | sort        - To sort by "TIME_WAIT" ports<br>
 
+## Contributing
 
+Contributions are welcome! If you have suggestions for improvements, feature requests, or would like to report issues, feel free to [create an issue](https://github.com/Pranav-Amin-10/NetworkPortScanner/issues) or submit a pull request.
 
+## License
+
+This project is licensed under the [MIT License](LICENSE).
